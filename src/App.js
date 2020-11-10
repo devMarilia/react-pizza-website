@@ -1,5 +1,5 @@
 import './App.css';
-import Navbar from '../src/components/Navbar'
+import Hero from '../src/components/Hero'
 import { BrowserRouter as Router } from 'react-router-dom'
 import { GlobalStyle } from './globlaStyles';
 
@@ -8,7 +8,7 @@ function App() {
     
     <Router>
       <GlobalStyle/>
-      <Navbar/>
+      <Hero/>
     </Router>
   );
 }
