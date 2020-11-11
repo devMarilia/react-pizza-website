@@ -1,18 +1,35 @@
-import React from 'react'
-import NavBar from '../Navbar'
-import { HeroContainer, HeroContent, HeroItems, HeroH1, HeroP, HeroBtn } from './HeroElements'
+import React, { useState } from 'react';
+import Navbar from '../Navbar';
+import Sidebar from '../Sidebar';
+import {
+  HeroContainer,
+  HeroContent,
+  HeroItems,
+  HeroH1,
+  HeroP,
+  HeroBtn
+} from './HeroElements';
 
-export default function Hero() {
-    return (
-        <HeroContainer>
-            <NavBar/>
-            <HeroContent>
-                <HeroItems>
-                    <HeroH1>A Melhor Pizza</HeroH1>
-                    <HeroP>Pronta em  20 minutos</HeroP>
-                    <HeroBtn>Faça sua encomenda</HeroBtn>
-                </HeroItems>
-            </HeroContent>
-        </HeroContainer>
-    )
-}
+const Hero = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggle = () => {
+    setIsOpen(!isOpen);
+  };
+
+  return (
+    <HeroContainer>
+      <Navbar toggle={toggle} />
+      <Sidebar isOpen={isOpen} toggle={toggle} />
+      <HeroContent>
+        <HeroItems>
+          <HeroH1>A melhor Pizza</HeroH1>
+          <HeroP>Pronta em 30 minutos</HeroP>
+          <HeroBtn>Faça seu pedido</HeroBtn>
+        </HeroItems>
+      </HeroContent>
+    </HeroContainer>
+  );
+};
+
+export default Hero;
