@@ -7,7 +7,7 @@ Foi construido um site simples de restaurante em React é apenas um frontend da 
   <i>Nesta tela abaixo temos um botão bem lindão com interação ao passar o mouse e o icone de pizza e ao clicar aparece um Barra lateal.</i>
 
 
-<img src="../react-pizza-website/src/images/capiture001.png"> <br><br>
+<img src="./src/images/capiture001.png"> <br><br>
 
 <i>Barra lateral com interação do usuário ao passar o mouse nas opções listadas como: </i>
 - Pizzas
@@ -16,16 +16,18 @@ Foi construido um site simples de restaurante em React é apenas um frontend da 
 - Botão estatico com interação do usuário ao passar o mouse.<br>
   
   
-<img src="../react-pizza-website/src/images/capture002.png"> <br><br>
+
+<img src="./src/images/capture002.png">
   
   Botão estatico com interação do usuário ao passar o mouse.
   
-<img src="../react-pizza-website/src/images/capture003.png"> <br><br>
 
  Imagens e botẽs estático.
-<img src="../react-pizza-website/src/images/capture004.png"> <br><br>
+<img src="./src/images/capture003.png"> <br><br>
  Imagens e botẽs estático.
-<img src="../react-pizza-website/src/images/capture005.png"> <br><br/>
+<img src="./src/images/capture004.png"> <br><br/>
+ Imagens e botẽs estático.
+<img src="./src/images/capture005.png"> <br><br/>
 
 Este projeto foi feito em:
 
