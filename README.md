@@ -13,7 +13,7 @@ Foi construido um site simples de restaurante em React é apenas um frontend da 
 - Pizzas
 - Sobremesas
 - Menu Completo
-- Botão estatico com interação do usuário ao passar o mouse.
+- Botão estatico com interação do usuário ao passar o mouse.<br>
   
   
 <img src="../react-pizza-website/src/images/capture002.png"> <br><br>
