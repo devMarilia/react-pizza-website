@@ -16,11 +16,11 @@ Foi construido um site simples de restaurante em React é apenas um frontend da 
 - Botão estatico com interação do usuário ao passar o mouse.<br>
   
   
-<img src="../react-pizza-website/src/images/capture002.png"> <br><br>
+
+<img src="../react-pizza-website/src/images/capture002.png" alt="menu">
   
   Botão estatico com interação do usuário ao passar o mouse.
   
-<img src="../react-pizza-website/src/images/capture003.png"> <br><br>
 
  Imagens e botẽs estático.
 <img src="../react-pizza-website/src/images/capture004.png"> <br><br>
